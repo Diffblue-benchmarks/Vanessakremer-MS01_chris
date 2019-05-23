@@ -7,7 +7,7 @@ public class Field{
 	private boolean richtungnord;
 	private boolean richtungost;
 	private boolean richtungsud;
-	private boolean richtungwest;
+	private boolean richtungwest
 
 	public void richtung(Field[][] map) {
 		
