@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    jcenter()
+}
+
+test {
+    // Required to run JUnit 5 with Gradle
+    useJUnitPlatform()
+}
+
+dependencies {
+    // These two dependencies are required to use JUnit 5 with parameterized tests
+    testImplementation 'org.junit.jupiter:junit-jupiter-params:5.4.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.4.2'
+    // These two dependencies are required for backwards compatibility with JUnit 4
+    testCompileOnly 'junit:junit:4.12'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine:5.4.2'
+    // Mockito is a cool framework for testing and especially 
+    // useful to test a component and simulate the other components
+    testImplementation "org.mockito:mockito-core:2.+"
+}

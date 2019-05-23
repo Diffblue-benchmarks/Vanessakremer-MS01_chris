@@ -1,0 +1,3 @@
+Das ist ein einfaches Textdokument zum Testen.
+Alle Textdokumente sollten so eingelesen werden, wie es in den Klassen Main und SimpleTest beispielhaft vorgeführt ist.
+Man beachte, dass so auch Umlaute fehlerfrei gelesen werden können.

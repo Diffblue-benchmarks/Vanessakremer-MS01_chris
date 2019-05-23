@@ -1,0 +1,20 @@
+# Gradle
+.gradle/
+build/
+
+# Eclipse Compiler Output
+bin/
+# IntelliJ Compiler Output
+out/
+
+# IntelliJ Configuration
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# Eclipse Configuration
+.settings/
+.classpath
+.project
+.metadata
